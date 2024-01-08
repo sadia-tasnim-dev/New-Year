@@ -11,7 +11,7 @@ body {
 :root {
   --primary-color: #ff0000;
   --second-color: #ffe8e8;
-  --third-color: #1e1e1e;
+  --third-color: #070211;
 }
 /* ------------variable--------------- */
 /* ------------Utility Class--------------- */
@@ -20,8 +20,41 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.main-margin-top {
+  margin-top: 120px;
+}
+.center-y {
+  display: flex;
+  align-items: center;
+}
+.primary-color {
+  color: var(--primary-color);
+}
+.space-between {
+  justify-content: space-between;
+}
+.width-full {
+  width: 100%;
+}
+.gap-s {
+  gap: 70px;
+}
+.gap-m {
+  gap: 24px;
+}
+.gap-ss {
+  gap: 13px;
+}
+.line-height {
+  line-height: 30px;
+}
+.relative {
+  position: relative;
+}
+
 /* ------------Utility Class--------------- */
 /* ------------Main Component Class--------------- */
+/* ------------Hero section--------------- */
 header {
   height: 600px;
   background-image: linear-gradient(
@@ -51,4 +84,289 @@ header h1 {
   font-weight: 900;
   font-family: "Merriweather", serif;
 }
+/* ------------Hero section--------------- */
+/* ------------All Category section--------------- */
+.all-categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.all-categories h1 {
+  font-size: 88px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.all-categories h5 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.all-categories h3 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+/* ------------All Category section--------------- */
+/* ------------Mid Night Party section--------------- */
+.mid-night-container {
+  height: 600px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 3, 17, 0.918),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url(./Image/Vectorrr.png);
+  border-radius: 15px;
+  padding: 0 130px;
+  gap: 30px;
+  color: white;
+}
+.mid-night-party h1 {
+  font-size: 64px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+}
+.mid-night-party p {
+  margin-top: 24px;
+  margin-bottom: 48px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.mid-night-party button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 25px;
+}
+/* ------------Mid Night Party section--------------- */
+/* ------------Join Now section--------------- */
+.join-now-container {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 232, 232) 40%,
+    rgb(255, 255, 255)
+  );
+  height: 482px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.join-now-container h3 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.join-now-container button {
+  border: none;
+  background-color: var(--primary-color);
+  padding: 16px 32px;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-top: 24px;
+}
+/* ------------Join Now section--------------- */
+/* ------------Coming Soon section--------------- */
+.coming-soon-container h5 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+.coming-soon-container h3 {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+}
+.coming-soon-container p {
+  margin-top: 22px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(119, 118, 118);
+  margin-bottom: 120px;
+}
+.round-img {
+  padding: 30px;
+  border: 15px solid red;
+  border-radius: 50%;
+}
+.new-year {
+  margin-left: auto;
+  width: 320px;
+}
+.new-year h2 {
+  margin-top: 25px;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.new-year p {
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(119, 118, 118);
+  margin-bottom: 43px;
+}
+/* ------------Coming Soon section--------------- */
+/* ------------Holiday Sale section--------------- */
+.holiday-sell-text-container h5 {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.holiday-sell-text-container h1 {
+  margin-top: 15px;
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: "Merriweather", serif;
+}
+.holiday-sell-text-container p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(119, 118, 118);
+  margin-bottom: 64px;
+  text-align: center;
+}
+.holiday-sell-image-container {
+  margin-left: auto;
+  width: fit-content;
+}
+.discount-img {
+  position: absolute;
+  top: 75px;
+  left: -150px;
+}
+.bottom-img {
+  margin-top: -4px;
+}
+.box-img {
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+  width: 600px;
+}
+/* ------------Holiday Sale section--------------- */
+/* ------------Awesome Portfolio section--------------- */
+.awesome-portfolio-text h5 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+.awesome-portfolio-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+.awesome-portfolio-text p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(119, 118, 118);
+  margin-bottom: 48px;
+}
+.portfolio-img-container {
+  margin-top: 24px;
+}
+.product-img {
+  transition: all 0.37s ease-in-out;
+}
+.product-img:hover {
+  transform: scale(1.06);
+}
+
+/* ------------Awesome Portfolio section--------------- */
+/* ------------Subscribe Newsletter section--------------- */
+.Subscribe-Newsletter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--second-color);
+  height: 616px;
+  border-radius: 15px;
+}
+.Subscribe-Newsletter-container h1 {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+.Subscribe-Newsletter-container p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(119, 118, 118);
+  margin-bottom: 48px;
+  text-align: center;
+}
+.subscribe-container {
+  background-color: white;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.subscribe-container input {
+  padding: 20px;
+  outline: none;
+  border: none;
+  margin-right: 90px;
+  margin-left: 15px;
+}
+.subscribe-container button {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 20px 56px;
+  color: white;
+}
+/* ------------Subscribe Newsletter section--------------- */
+/* ------------Footer section--------------- */
+footer {
+  background-color: var(--third-color);
+  padding: 120px 140px;
+  height: 610px;
+  color: white;
+}
+.address-container {
+  border-bottom: 1px solid rgb(53, 52, 52);
+  padding-bottom: 50px;
+}
+.address-container h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.address-container a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+.contact-container {
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-right: 160px;
+}
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 48px 0;
+  border-bottom: 1px solid rgb(53, 52, 52);
+}
+.copyright-container {
+  padding-top: 50px;
+  font-size: 24px;
+  font-weight: 500;
+}
+/* ------------Footer section--------------- */
 /* ------------Main Component Class--------------- */
